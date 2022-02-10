@@ -1,0 +1,335 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1366px;
+    max-width: 3000px;
+    overflow-x: hidden;
+}
+.col-100{
+    width: 1264px;
+    height: 100%;
+    float: center;
+    position: relative;
+}
+.header-1 {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    top: 0 auto;
+    width: 1264px;
+    height: 100%;
+    margin-left: 40px;
+}
+.logo ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 10px;
+    }
+.logo{
+    width: 35%;
+}
+.logo ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.logo ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';   
+    font-size: 40px;
+}
+main{
+    margin: 0 auto;
+    width: 1264px;
+    position: absolute;
+}
+.header-2 {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    top: 0 auto;
+    width: 1264px;
+    height: 100%;
+    margin-left: 535px;
+}
+.botoes ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 45px;
+    margin-top: 13px;
+}
+.botoes{
+    width: 1264px;
+}
+.botoes ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.botoes ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 17px;
+}
+.titlesn{
+    position: absolute;
+    text-align: left;
+    top: 200px;
+    width: 130px;
+    height: 30px;
+    margin-left: 95px;
+    color: #fff;
+    font-family:'Pirata One';
+    font-size: 35px;
+}
+.textosn{
+    position: absolute;
+    text-align: left;
+    top: 325px;
+    width: 250px;
+    height: 30px;
+    margin-left: 150px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.missao{
+    position: absolute;
+    text-align: left;
+    top: 900px;
+    width: 250px;
+    height: 30px;
+    margin-left: 232px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 25px;
+}
+.txtmissao{
+    position: absolute;
+    text-align: left;
+    top: 975px;
+    width: 250px;
+    height: 30px;
+    margin-left: 120px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.visao{
+    position: absolute;
+    text-align: left;
+    top: 900px;
+    width: 250px;
+    height: 30px;
+    margin-left: 590px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 25px;
+}
+.txtvisao{
+    position: absolute;
+    text-align: left;
+    top: 975px;
+    width: 250px;
+    height: 30px;
+    margin-left: 473px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.valores{
+    position: absolute;
+    text-align: left;
+    top: 922px;
+    width: 250px;
+    height: 30px;
+    margin-left: 890px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 25px;
+}
+.txtvalor{
+    position: absolute;
+    text-align: left;
+    top: 975px;
+    width: 250px;
+    height: 30px;
+    margin-left: 825px;
+    color: #fff;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.estudio{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 605px;
+    height: 30px; 
+    top: 1370px;
+    right: 367px;
+}
+.estudio ul li a:hover{
+    color: #fff;
+    opacity: 80%;
+}
+.estudio ul li a {
+    margin-left: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';
+    font-size: 45px;
+}
+.estudio ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.titleest{
+    position: absolute;
+    text-align: left;
+    top: 1300px;
+    width: 130px;
+    height: 30px;
+    margin-left: 573px;
+    color: #fff;
+    font-family:'Pirata One';
+    font-size: 40px;
+}
+.equipe1{
+    position: absolute;
+    text-align: left;
+    top: 2475px;
+    width: 130px;
+    height: 30px;
+    margin-left: 275px;
+    color: #000;
+    font-family:'Roboto Medium';
+    font-size: 35px;
+}
+.equipe2{
+    position: absolute;
+    text-align: left;
+    top: 2275px;
+    width: 130px;
+    height: 30px;
+    margin-left: 400px;
+    color: #000;
+    font-family:'Roboto Medium';
+    font-size: 35px;
+}
+.equipe3{
+    position: absolute;
+    text-align: left;
+    top: 2080px;
+    width: 130px;
+    height: 30px;
+    margin-left: 275px;
+    color: #000;
+    font-family:'Roboto Medium';
+    font-size: 35px;
+}
+.titleeqp{
+    position: absolute;
+    text-align: left;
+    top: 1960px;
+    width: 130px;
+    height: 30px;
+    margin-left: 585px;
+    color: #fff;
+    font-family:'Pirata One';
+    font-size: 40px;
+}
+.titlers{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 170px;
+    height: 30px;
+    top: 2720px;
+    left: 199px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.redes-sociais{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 320px;
+    height: 30px; 
+    top: 2825px;
+    right: 860px;
+}
+.redes-sociais ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.redes-sociais ul li a {
+    top: 500px;
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';
+    font-size: 45px;
+}
+.redes-sociais ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.titleend{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 170px;
+    height: 30px;
+    top: 2720px;
+    left: 600px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.textoend{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    top: 2820px;
+    left: 545px;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+}
+.titlehf{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    top: 2720px;
+    left: 940px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.horarios{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    top: 2845px;
+    left: 950px;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+}
+.copyright{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    top: 2960px;
+    left: 40px;
+    font-family: 'Roboto Medium';
+    font-size: 15px;
+}
+.logogv{
+    position: absolute;
+    color: #fff;
+    top: -10px;
+    left: 580px;
+}

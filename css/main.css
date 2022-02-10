@@ -1,0 +1,380 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    min-width: 1264px;
+    max-width: 3000px;
+    overflow-x: hidden;
+}
+.col-100{
+    width: 1264px;
+    height: 100%;
+    float: center;
+    position: relative;
+}
+.header-1 {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    top: 0 auto;
+    width: 1264px;
+    height: 100%;
+    margin-left: 40px;
+}
+.logo ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 10px;
+    }
+.logo{
+    width: 35%;
+}
+.logo ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.logo ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';   
+    font-size: 40px;
+}
+main{
+    margin: 0 auto;
+    width: 1264px;
+    position: absolute;
+}
+.header-2 {
+    position: absolute;
+    color: #000;
+    text-align: center;
+    top: 0 auto;
+    width: 1264px;
+    height: 100%;
+    margin-left: 535px;
+}
+.botoes ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 45px;
+    margin-top: 13px;
+}
+.botoes{
+    width: 1264px;
+}
+.botoes ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.botoes ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 17px;
+}
+.backg{
+    margin: 0 auto;
+    width: 1264px;
+    height: 1400px;
+}
+.titlesn{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 240px;
+    height: 30px; 
+}
+.titlesn ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.titlesn ul li a {
+    top: 79px;
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';
+    font-size: 45px;
+}
+.titlesn ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.sobre-nos{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    top: 970px;
+    margin-left: 80px;
+    width: 1264px;
+    font-size: 20px;
+    font-family:'Roboto-Medium';
+}
+.sobre-nos ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.sobre-nos ul li a {
+    position: absolute;
+    top: 91px;
+    margin-left: 205px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}.sobre-nos ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.botaosolicite{
+    width: 415px;
+    height: 90px;
+    border: 2px solid;
+    border-color: #fff;
+    background: #000;
+    opacity: 80%;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 33px;
+    text-decoration: none;
+    font-family: 'Pirata One';
+
+}
+.botaosolicite:hover{
+    color: #ffffff;
+    opacity: 30%;
+}
+.posicao{
+    top: 1775px;
+    margin-left: 31%;
+    position: absolute;
+    text-align: center;
+}
+.posicao a{
+    color: #ffffff;
+}
+.titletb{    
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    width: 170px;
+    height: 30px;
+    top: -61px;
+    left: -41px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.titletb ul li a {
+    position: absolute;
+    top: 2185px;
+    margin-left: 168px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';
+    font-size: 35px;
+}
+.titletb ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.titletb ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.Lobo ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.Lobo ul li a {
+    position: absolute;
+    top: 2195px;
+    margin-left: 214px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.Lobo ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.Olho ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.Olho ul li a {
+    position: absolute;
+    top: 2195px;
+    margin-left: 513px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.Olho ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.LeaoRosa ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.LeaoRosa ul li a {
+    position: absolute;
+    top: 2195px;
+    margin-left: 816px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.LeaoRosa ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.Elefante ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.Elefante ul li a {
+    position: absolute;
+    top: 2504px;
+    margin-left: 214px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.Elefante ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.Fechamento ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.Fechamento ul li a {
+    position: absolute;
+    top: 2504px;
+    margin-left: 513px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.Fechamento ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.Leao ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.Leao ul li a {
+    position: absolute;
+    top: 2504px;
+    margin-left: 816px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Roboto Medium';
+    font-size: 20px;
+}
+.Leao ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.titlers{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 170px;
+    height: 30px;
+    top: 2910px;
+    left: 199px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.redes-sociais{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 320px;
+    height: 30px; 
+    top: 3000px;
+    right: 860px;
+}
+.redes-sociais ul li a:hover{
+    color: #fff;
+    opacity: 50%;
+}
+.redes-sociais ul li a {
+    top: 500px;
+    margin-left: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family:'Pirata One';
+    font-size: 45px;
+}
+.redes-sociais ul li{
+    display: inline-block;
+    color: #ffffff;
+}
+.titleend{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    width: 170px;
+    height: 30px;
+    top: 2910px;
+    left: 600px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.textoend{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 230px;
+    height: 30px;
+    top: 3000px;
+    left: 545px;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+}
+.titlehf{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    top: 2910px;
+    left: 940px;
+    font-family: 'Pirata One';
+    font-size: 35px;
+}
+.horarios{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    top: 3015px;
+    left: 950px;
+    font-family: 'Roboto Medium';
+    font-size: 20px;
+}
+.copyright{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    top: 3140px;
+    left: 40px;
+    font-family: 'Roboto Medium';
+    font-size: 15px;
+}
+.logogv{
+    position: absolute;
+    color: #fff;
+    top: -10px;
+    left: 580px;
+}
