@@ -11,9 +11,6 @@ body {
     float: center;
     position: relative;
 }
-.principal{
-    position: absolute;
-}
 .header-1 {
     position: absolute;
     color: #000;
