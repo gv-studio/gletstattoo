@@ -1,20 +1,7 @@
-function populateList() {
-    const data = Array.from({length: 60})
-    .map((_, i) => '<div class="foto"></div>')
+const data = Array.from({length: 60})
+    .map((_, i) => (i))
 
-    const lista = document.querySelector('#itens .lista')
-    lista.innerHTML = data.join("")
-
-    return data
-}
-const data = populateList()
-
-const html = {
-    get(element) {
-        return document.querySelector(element)
-    }
-}
-
+//===============================================//
 let perPage = 10
 const state = {
     page: 1,
@@ -22,7 +9,11 @@ const state = {
     totalPage: Math.ceil(data.length / perPage)
 }
 
-console.log(state.totalPage)
+const html = {
+    get(element) {
+        return document.querySelector(element)
+    }
+}
 
 const controls = {
     next(){
@@ -34,20 +25,75 @@ const controls = {
     },
     prev(){
         state.page--
+
         if(state.page < 1) {
             state.page++
         }
     },
-    goTo(){
+    goTo(page){
         if (page < 1) {
             page = 1
         }
+
         state.page = page
+        
         if(page > state.totalPage){
             state.page = state.totalPage
         }
     },
     createListeners() {
-        html.get('.first')
+        html.get('.first').addEventListener('click', ()  => {
+            controls.goTo(1)
+            update()
+        })
+
+        html.get('.last').addEventListener('click', ()  => {
+            controls.goTo(state.totalPage)
+            update()
+        })
+
+        html.get('.next').addEventListener('click', ()  => {
+            controls.next()
+            update()
+        })
+
+        html.get('.prev').addEventListener('click', ()  => {
+            controls.prev()
+            update()
+        })
     }
 }
+
+const list = {
+    create(item) {
+        const div = document.createElement('div')
+        div.classList.add('item')
+        div.innerHTML = item
+        
+        html.get('.list').appendChild(div)
+    },
+    update() {
+        html.get('.list').innerhtml =""
+    
+        let page = state.page - 1
+        let start = page * state.perPage
+        let end = start + state.perPage
+        
+        const paginatedItems = data.slice(start,  end)
+
+        paginatedItems.forEach(list.create)
+    
+        
+    }
+}
+
+function update() {
+    list.update()
+}
+
+function init() {
+    list.update
+    controls.createListeners()
+}
+
+init()
